@@ -267,9 +267,235 @@ main {
     color: #e7e4e6dc;
     cursor: pointer;
 }
-  
-  
 
+
+.play-instantly-section{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 265px;
+  }
+  .play-instantly-part {
+    text-align: right;
+  }
+  .play-instantly {
+    margin: 120px 0 243px 0;
+  }
+  .play-instantly-part h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .play-instantly-part p {
+    width: 353px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .relative-img {
+    position: absolute;
+    right: 466px;
+    top: 357px;
+    z-index: 1;
+  }
+  .play-instantly-section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    gap: 265px;
+  }
+  .play-img {
+    text-align: start;
+    position: relative;
+  }
+  .relative-img2 {
+    top: 405px;
+    position: absolute;
+    z-index: 1;
+    left: 529px;
+  }
+  .play-instantly-section2 {
+    margin-top: 195px;
+  }
+  .play-instantly-content2 {
+    text-align: start;
+  }
+
+
+.category {
+     margin-top: 243px;
+     margin-bottom: 118px;
+}
+  .category-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .btn3 img {
+    width: 60px;
+  }
+  .btn3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #0b0223;
+    font-size: 20px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    padding: 10px 20px 10px 10px;
+    transition: all ease-in 0.4s;
+  }
+  .btn3:hover {
+    border: 2px solid var(--primary-color);
+    color: #f948b2;
+  }
+
+
+
+
+
+  @media screen and (max-width: 576px) {
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .header-section{
+        flex-direction: column;
+        max-width: auto;
+      }
+      .header-icon {
+        justify-content: center;
+        margin-bottom: 62px;
+      }
+      .menu {
+        flex-direction: column;
+      }
+      .banner-section {
+        max-width: auto;
+      }
+      .banner {
+        background-image: none;
+        padding: 0;
+      }
+      .banner-part{
+        justify-content: center;
+        display: grid;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+      }
+      .banner-section {
+        flex-direction: column-reverse;
+      }
+      .banner-section img {
+        width: 100%;
+      }
+
+      .banner2-section {
+        text-align: center;
+        padding-bottom: 0;
+      }
+      .btn1-banner2 {
+        justify-content: center;
+      }
+    
+      .banner2-section {
+        flex-direction: column-reverse;
+      }
+      .btn1-banner2 {
+        justify-content: center;
+      }
+    
+      .banner2-section {
+        flex-direction: column-reverse;
+      }
+      main {
+        max-width: auto;
+      }
+    
+      .online-games {
+        padding: 0 15px;
+      }
+
+      .online-game-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 15px;
+      }
+      .part-by-part img {
+        width: 100%;
+      }
+
+      .play-instantly {
+        padding: 15px;
+        margin: auto;
+      }
+      .play-instantly-section {
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        gap: 74px;
+      }
+      .play-instantly-part {
+        text-align: center;
+      }
+      .play-instantly-img img {
+        width: 70%;
+      }
+      .play-instantly-section2 {
+        flex-direction: column;
+        gap: 74px;
+      }
+      .play-instantly-part p {
+        width: auto;
+      }
+      .play-img .relative-img {
+        position: absolute;
+        right: 254px;
+        width: 35%;
+        top: 227px;
+        z-index: 1;
+      }
+      .play-img {
+        text-align: center;
+      }
+      .play-img .relative-img2 {
+        top: 208px;
+        position: absolute;
+        z-index: 1;
+        left: 255px;
+        width: 35%;
+      }
+      
+      .category {
+        margin-top: 143px;
+        margin-bottom: 118px;
+      }
+      .category-part {
+        gap: 5px;
+      }
+      .btn3 {
+        font-size: 13px;
+        align-items: center;
+        font-size: 0.6rem;
+        gap: 5px;
+        flex-basis: 32%;
+      }
+      .btn3 img {
+        width: 30px;
+      }
+      .btn3:hover {
+        border: 1px solid var(--primary-color);
+      }
+    
+      
+      
+  
   
   
   
