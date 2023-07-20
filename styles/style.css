@@ -141,5 +141,53 @@ social-all-icon {
     align-items: center;
     justify-content: space-between;
 
+}
+
+.btn1-banner2 {
+    display: flex;
+    justify-content: right;
   }
+.banner2-section {
+    flex-direction: row-reverse;
+    text-align: right;
+ }
+.banner2 {
+    background: #fff9fc;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.banner2-part {
+    text-align: right;
+}
+.banner2-part h2 {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+  }
+.banner2-part p {
+    color: #534c64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.span3 {
+    color: #534c64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+  .banner2-content h4 {
+    color: #534c64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 24px;
+}
+  
+  
   
