@@ -84,6 +84,9 @@ header{
     background: #4ec5f7;
 }
 
+
+/*     Banner  Area   */
+
 .banner-section{
     max-width: 1440px;
     margin: 0 auto;
@@ -268,6 +271,8 @@ main {
     cursor: pointer;
 }
 
+/*   Play Games Online Anywhere, Anytime! */
+
 
 .play-instantly-section{
     display: flex;
@@ -322,6 +327,7 @@ main {
     text-align: start;
   }
 
+  /*    category-part   */
 
 .category {
      margin-top: 243px;
@@ -356,7 +362,7 @@ main {
 
 
 
-
+/*    Responsive area  */
 
   @media screen and (max-width: 576px) {
     * {
