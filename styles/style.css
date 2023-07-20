@@ -8,7 +8,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-  }
+}
 
 h1, h2 {
   color: #0b0223;
@@ -17,7 +17,7 @@ h1, h2 {
 a {
     text-decoration: none;
     cursor: pointer;
-  }
+}
   
 ul {
     list-style: none;
@@ -51,20 +51,20 @@ header{
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    gap: 2rem;
+    gap: 16px;
 }
 .span1 {
     color:  #ff42a5;
 }
-social-all-icon {
+.social-all-icon {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
  }
 .follow-us-on{
     display: flex;
     align-items: center;
-    border-radius: 6px;
-    gap: 1.4rem;
+    border-radius: 4px;
+    gap: 22px;
     background-color: rgba(11, 2, 35, 0.1);
     padding: 16px 24px;
 }
@@ -180,7 +180,7 @@ social-all-icon {
     font-weight: 700;
     line-height: 45px;
 }
-  .banner2-content h4 {
+.banner2-content h4 {
     color: #534c64;
     text-align: right;
     font-size: 24px;
@@ -188,6 +188,88 @@ social-all-icon {
     line-height: 45px;
     margin-top: 24px;
 }
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.online-games {
+    margin-top: 120px;
+}
+.online-game-title {
+    text-align: center;
+}
+.online-games h2 {
+    color: #0b0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-games p {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.online-game-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.part-by-part .img {
+    width: 100%;
+}
+.card p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.watch-now {
+    text-align: center;
+    visibility: hidden;
+}
+.part-by-part .watch-now i {
+    color: #ffffff;
+    font-size: 54px;
+    z-index: 99999;
+    margin-bottom: 16px;
+  }
+  
+.watch-now h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 110px;
+    color: #f948b2;
+    cursor: pointer;
+}
+.part-by-part{
+    position: relative;
+}
+  .part-by-part  .watch-now {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .part-by-part:hover  .watch-now {
+    visibility: visible;
+}
+  
+.part-by-part:hover img {
+    filter: brightness(0.8) blur(2px);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.watch-now i:hover {
+    color: #e7e4e6dc;
+    cursor: pointer;
+}
+  
+  
+
   
   
   
